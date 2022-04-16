@@ -6,7 +6,7 @@ sudo chmod +x speedtest-cli
 echo '• Downloaded speedtest-cli'
 echo '• Beginning test'
 
-sudo ./speedtest-cli --share
+sudo python3 speedtest-cli --share
 
 echo '• Test finished, Deleting speedtest-cli'
 sudo rm speedtest-cli
