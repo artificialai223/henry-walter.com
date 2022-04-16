@@ -1,4 +1,5 @@
-#/bin/bash
+#!/bin/bash
+
 echo '• Downloading speedtest-cli'
 sudo curl -s -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py 
 sudo chmod +x speedtest-cli
